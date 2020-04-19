@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
  new_list = {}
- data.each do |key, values|
-   values.each do |new_value, names|
+ data.each do |key, value|
+   value.each do |new_value, names|
      names.each do |name|
        if new_list[name] == nil
          new_list[name] = {}
