@@ -9,6 +9,7 @@ def nyc_pigeon_organizer(data)
       if new_list[name][key] == nil
         new_list[name][key] = []
       end
+      new_list[name][key] >> key.to_s
     end
   end
  
