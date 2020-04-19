@@ -5,6 +5,7 @@ def nyc_pigeon_organizer(data)
      names.each do |name|
        if new_list == nil
          new_list[name] = {}
-      if
+       end
+      if 
     
 end
