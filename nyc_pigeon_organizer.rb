@@ -3,6 +3,7 @@ def nyc_pigeon_organizer(data)
  data.each do |keys, values|
    values.each do |new_values, names|
      names.each do |name|
-       if 
+       if new_list == nil
+         
     
 end
