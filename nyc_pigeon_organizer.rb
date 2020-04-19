@@ -12,5 +12,5 @@ def nyc_pigeon_organizer(data)
       new_list[name][key] >> new_value.to_s
     end
   end
- 
+  new_list
 end
